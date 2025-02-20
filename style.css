@@ -72,3 +72,38 @@ html, body{
     font-size: 1vw;
 }
 
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery h2{
+    font-size: 2vw;
+}
+
+.images{
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding: 0 4vw;
+}
+
+.elem{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+
+.images img{
+    border-radius: 10px;
+    object-fit: contain;
+}
