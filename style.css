@@ -39,5 +39,36 @@ html, body{
 .navbar a{
     text-decoration: none;
     color: black;
+    font-size: 1.2vw;
+}
+
+.hero{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    text-align: center;
+}
+
+.hero-content{
+    width: 100%;
+    padding: 5vw 0;
+}
+
+.hero-content h1{
+    font-size: 6vw;
+    line-height: 5.5vw;
+}
+
+.hero-content h4{
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+
+.hero-content p{
+    font-size: 1vw;
 }
 
