@@ -1,0 +1,104 @@
+/* 
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.navbar-brand img {
+    height: 180px;
+    margin-right: 4px;
+}
+.navbar-brand img:hover {
+    height: 200px;
+    box-shadow: 0 0px 0px rgba(220, 127, 14);
+}
+
+.hero-section {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: rgb(235, 144, 16);
+    padding: 100px 0;
+}
+
+.gallery img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 220px;
+    width: 220px;
+    display: inline-block;
+}
+.gallery img:hover {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 240px;
+    width: 240px;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(204, 101, 11);
+}
+
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #1d2127;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 150px; 
+    }
+
+    .hero-section {
+        padding: 60px 0; 
+    }
+
+    .gallery img {
+        height: 180px; 
+        width: 180px;
+    }
+
+    footer {
+        padding: 10px 0; 
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-brand img {
+        height: 180px;
+    }
+
+    .hero-section {
+        padding: 100px 0;
+    }
+
+    .gallery img {
+        height: 220px; 
+        width: 220px;
+    }
+}
+
+footer {
+    background-color: #343a40;
+    color: rgb(44, 42, 42);
+    padding: 15px 0;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
