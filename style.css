@@ -26,7 +26,7 @@ html, body{
 }
 
 .nav img{
-    height: 80px;
+    height: 8vw;
 }
 
 .navbar{
@@ -87,6 +87,7 @@ html, body{
     margin-top: 5vw;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 4vw;
     padding: 0 4vw;
@@ -99,8 +100,8 @@ html, body{
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    width: 40%;
-    width: 400px;
+    min-width: 25%;
+    height: 15vw;
 }
 
 .images img{
@@ -131,4 +132,124 @@ html, body{
     background-color: gray;
     padding: 1vw;
     text-align: center;
+}
+
+@media (max-width: 600px){
+    .main{
+        min-height: 100vh;
+    }
+    .nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.nav img{
+    height: 12vw;
+}
+.navbar{
+    gap: 4vw;
+}
+
+.navbar a{
+    font-size: 2.5vw;
+}
+
+.hero{
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+    text-align: center;
+}
+
+.hero-content{
+    width: 100%;
+    padding: 5vw 2vw;
+}
+
+.hero-content h1{
+    font-size: 8vw;
+    line-height: 7vw;
+}
+
+.hero-content h4{
+    font-size: 4vw;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+
+.hero-content p{
+    font-size: 2vw;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery h2{
+    font-size: 4vw;
+}
+
+.images{
+    margin-top: 8vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+    padding: 0 4vw;
+}
+
+.elem{
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    min-width: 40%;
+    height: 200px;
+    flex-wrap: nowrap;
+}
+
+.images img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.contact p a{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    background-color: gray;
+    padding: 1.5vw;
+    text-align: center;
+}
 }
